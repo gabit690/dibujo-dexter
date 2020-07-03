@@ -32,10 +32,16 @@ _._\,'  ,'__,'      /  _\    / \   .'
 - CSS3
 - JavaScript
 
-## **Ver el proyecto.**
+## **Proyecto.**
 
-Podes ver el [repositorio][repo] en mi Github o el trabajo terminado [acá][web].
+Podés ver el trabajo terminado [acá][web].
 ___
+
+## **Agradecimientos especiales.**
+
+A creador de intro por el cover del tema principal que usé para la intro y a creador hawk por su cover de "Your brain is a creative computer".
+
+
 ## **Autor.**
 
 **Apodo:** Gabit.
@@ -45,5 +51,4 @@ ___
 **Inicio del proyecto:** 02/07/2020.
 
 [info]: https://en.wikipedia.org/wiki/Dexter%27s_Laboratory
-[repo]: https://en.wikipedia.org/wiki/Dexter%27s_Laboratory
 [web]: https://en.wikipedia.org/wiki/Dexter%27s_Laboratory

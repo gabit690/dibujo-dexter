@@ -1,0 +1,14 @@
+#info {
+    width: 80vw;
+    min-width: 300px;
+    height: 60vh;
+    position: fixed;
+    left: 10vw;
+    top: 20vh;
+    padding: 5% 5%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 1.2rem;
+}
