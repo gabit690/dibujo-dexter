@@ -1,14 +1,52 @@
+* {
+    text-decoration: none;
+}
+
+#titular {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#titular #boton-info {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: grey;
+}
+
 #info {
     width: 80vw;
-    min-width: 300px;
-    height: 60vh;
-    position: fixed;
+    min-width: 240px;
+    position: absolute;
     left: 10vw;
     top: 20vh;
     padding: 5% 5%;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     box-sizing: border-box;
-    font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+    opacity: 0;
+    transition: .5s opacity linear;
+}
+
+.visible {
+    opacity: 1;
+}
+
+#info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#info a {
+    color: #85fe8f;
+    /* color: #57de71; COLOR DE MANCHAS DEL Nucleo*/
 }
