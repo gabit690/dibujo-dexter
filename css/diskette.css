@@ -1,34 +1,42 @@
 #diskette {
     width: 35%;
+    min-width: 83.99px;
+    max-width: 106.99px;
     height: 80%;
-    background-color: chocolate;
+    min-height: 76.79px;
+    background: linear-gradient(-25deg, #BF953F 0%, #FCF6BA 40%, #B38728 100%);
+    box-sizing: border-box;
+    transition-property: transform;
+    transition-timing-function: linear;
+    animation-name: rotar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        background: linear-gradient(25deg, #BF953F 0%, #FCF6BA 40%, #B38728 100%);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
 }
 
 #diskette #circulo-externo {
-    width: 54.85%;
+    width: 54.16%;
     height: 60%;
     margin: auto;
     margin-top: 13%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: radial-gradient( #FCF6BA 20%, #B38728 70%, #AA771C);
     border-radius: 50%;
-    background-color: cornflowerblue;
-}
-
-#diskette #circulo-brillo {
-
-}
-
-#diskette #circulo-interno {
-    width: 30%;
-    height: 30%;
-    border-radius: 50%;
-    background-color: cornsilk;
-}
-
-#diskette #diskette-brillo {
-
+    overflow: hidden;
 }
 
 #diskette #detalle {
@@ -36,18 +44,32 @@
     height: 17%;
     margin: auto;
     margin-top: 8%;
+    background: linear-gradient(360deg, #FCF6BA, #B38728);
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    background-color: cornflowerblue;
+    opacity: 1;
+    transition-property: opacity;
+    transition-timing-function: linear;
+    animation-name: mostrar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-/*
-<div id="diskette">
-    <div id="circulo-externo">
-        <div id="circulo-brillo"></div>
-        <div id="circulo-interno"></div>
-    </div>
-    <div id="diskette-brillo"></div>
-    <div id="detalle"></div>
-</div>
-*/
+@keyframes mostrar {
+    0% {
+        opacity: 1;
+    }
+    24% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    74% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+}

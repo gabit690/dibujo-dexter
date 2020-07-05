@@ -27,7 +27,7 @@ body {
     top: 130vh;
     padding: 5% 5%;
     background-color: rgba(0, 0, 0, 0.75);
-    color: #d4dbee;;
+    color: #d4dbee;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     transition: .4s top linear;
