@@ -1,0 +1,43 @@
+#personaje {
+    width: 80vw;
+    min-width: 240px;
+    max-width: 480px;
+    height: 80vh;
+    min-height: 480px;
+    max-height: 960px;
+    margin: auto;
+    background-color: white;
+}
+
+.contenedor {
+    position: relative;
+}
+
+#personaje #objeto-valioso{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+#personaje #manos{
+    height: 15%;
+    background-color: teal;
+}
+
+#personaje #brazos{
+    height: 20%;
+    background-color: thistle;
+}
+
+#personaje #torso{
+    height: 30%;
+    background-color: violet;
+}
+
+#personaje #piernas{
+    height: 15%;
+    background-color: tomato;
+}
+

@@ -1,11 +1,11 @@
 window.addEventListener('load', function(e) {
-    const botonInfo = document.querySelector('#boton-info');
+    
+    // Posicionamiento de la ventana con información del proyecto.
+    const botonInfo = document.querySelector('#titular');
+
     botonInfo.addEventListener('click', () => {
         const info = document.querySelector('#info');
-        if (info.style.opacity == '1') {
-            info.style.opacity = '0';
-        } else {
-            info.style.opacity = '1';
-        }
+        info.classList.toggle('activo');
     });
+
 });

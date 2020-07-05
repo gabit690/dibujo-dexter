@@ -2,48 +2,49 @@
     text-decoration: none;
 }
 
-#titular {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: 'Montserrat', sans-serif;
+body {
+    height: 100vh;
+    min-height: 600px;
+    overflow: hidden;
+    background-color: #001d59;
 }
 
-#titular #boton-info {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    font-size: 1rem;
-    font-weight: bolder;
-    border: 2px solid black;
-    border-radius: 50%;
-    background-color: grey;
+#titular {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    cursor: pointer;
+    color: #d4dbee;
 }
+
+/* ---------- Información de proyecto --------- */
 
 #info {
     width: 80vw;
     min-width: 240px;
     position: absolute;
     left: 10vw;
-    top: 20vh;
+    top: 130vh;
     padding: 5% 5%;
     background-color: rgba(0, 0, 0, 0.75);
-    color: white;
+    color: #d4dbee;;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    opacity: 0;
-    transition: .5s opacity linear;
+    transition: .4s top linear;
 }
 
-.visible {
-    opacity: 1;
+#info.activo {
+    top: 20vh;
 }
 
 #info h2 {
-    font-size: 2rem;
+    font-size: 6vh;
     font-weight: bold;
     text-align: center;
+}
+
+#info p {
+    font-size: 3vh;
 }
 
 #info a {

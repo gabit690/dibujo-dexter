@@ -1,0 +1,53 @@
+#diskette {
+    width: 35%;
+    height: 80%;
+    background-color: chocolate;
+}
+
+#diskette #circulo-externo {
+    width: 54.85%;
+    height: 60%;
+    margin: auto;
+    margin-top: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+
+#diskette #circulo-brillo {
+
+}
+
+#diskette #circulo-interno {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: cornsilk;
+}
+
+#diskette #diskette-brillo {
+
+}
+
+#diskette #detalle {
+    width: 13%;
+    height: 17%;
+    margin: auto;
+    margin-top: 8%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: cornflowerblue;
+}
+
+/*
+<div id="diskette">
+    <div id="circulo-externo">
+        <div id="circulo-brillo"></div>
+        <div id="circulo-interno"></div>
+    </div>
+    <div id="diskette-brillo"></div>
+    <div id="detalle"></div>
+</div>
+*/
