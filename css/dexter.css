@@ -1,3 +1,10 @@
+/*
+    skin: #fee3da
+    hair: #fee3da
+    glasses: #fee3da
+
+*/
+
 #personaje {
     width: 240px;
     height: 480px;
@@ -14,12 +21,100 @@
 }
 
 #personaje #manos {
-    height: 15%;
+    height: 20%;
     background-color: teal;
 }
 
+.mano {
+    box-sizing: border-box;
+    width: 75px;
+    height: 100%;
+    z-index: 3;
+}
+
+#manos #mano-derecha {
+    left: 47px;
+    transform: rotateZ(5deg);
+}
+
+.palma-lado-derecho {
+    width: 65%;
+    height: 60%;
+    top: 38px;
+    left: 13px;
+    background-color: #83338a;
+    box-sizing: border-box;
+    transform: skewX(-25deg);
+    clip-path: polygon(0% 0%, 70% 0%, 80% 100%, 0% 100%);
+    z-index: 1;
+}
+
+.palma-lado-izquierdo {
+    width: 50%;
+    height: 60%;
+    top: 38px;
+    left: 24px;
+    background-color: #83338a;
+    box-sizing: border-box;
+    transform: skewX(25deg);
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.dedo1 {
+    width: 20px;
+    height: 15px;
+    top: 35px;
+    left: 45px;
+    background-color: #83338a;
+    border-radius: 50%;
+    border-left-color: transparent;
+    z-index: 1;
+}
+
+.dedo2 {
+    width: 15px;
+    height: 38px;
+    top: -1px;
+    left: 35px;
+    background-color: #83338a;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    transform: rotateZ(15deg);
+    z-index: 1;
+}
+
+.dedo3 {
+    width: 15px;
+    height: 30px;
+    top: 10px;
+    left: 12px;
+    background-color: #83338a;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    transform: rotateZ(-25deg);
+    z-index: 1;
+}
+
+.dedo4 {
+    width: 15px;
+    height: 30px;
+    top: 27px;
+    left: -3px;
+    background-color: #83338a;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    transform: rotateZ(-65deg);
+    z-index: 1;
+}
+
+#manos #mano-izquierda {
+    left: 117px;
+    transform: rotateY(180deg) rotateZ(5deg);
+}
+
 #personaje #brazos {
-    height: 20%;
+    height: 15%;
     background-color: thistle;
 }
 
@@ -32,13 +127,13 @@
 
 #brazos #brazo-derecho {
     top: -10px;
-    left: 55px;
+    left: 52px;
     transform: skewX(-10deg);
 }
 
 #brazos #brazo-izquierdo {
     top: -10px;
-    left: 145px;
+    left: 149px;
     transform: skewX(10deg);
 }
 
@@ -81,10 +176,10 @@
 }
 
 #torso #boton-bata {
-    width: 15px;
-    height: 30px;
-    top: 70px;
-    left: 105px;
+    width: 10px;
+    height: 20px;
+    top: 80px;
+    left: 110px;
     z-index: 3;
     background-color: black;
     border-radius: 50%;
