@@ -1,15 +1,11 @@
 #personaje {
-    width: 80vw;
-    min-width: 240px;
-    max-width: 480px;
-    height: 80vh;
-    min-height: 480px;
-    max-height: 960px;
+    width: 240px;
+    height: 480px;
     margin: auto;
     background-color: white;
 }
 
-#personaje #objeto-valioso{
+#personaje #objeto-valioso {
     height: 20%;
     display: flex;
     align-items: center;
@@ -17,23 +13,100 @@
     background-color: chartreuse;
 }
 
-#personaje #manos{
+#personaje #manos {
     height: 15%;
     background-color: teal;
 }
 
-#personaje #brazos{
+#personaje #brazos {
     height: 20%;
     background-color: thistle;
 }
 
-#personaje #torso{
-    height: 30%;
+.brazo {
+    width: 40px;
+    height: 110px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#brazos #brazo-derecho {
+    top: -10px;
+    left: 55px;
+    transform: skewX(-10deg);
+}
+
+#brazos #brazo-izquierdo {
+    top: -10px;
+    left: 145px;
+    transform: skewX(10deg);
+}
+
+#personaje #torso {
+    height: 25%;
     background-color: violet;
 }
 
-#personaje #piernas{
-    height: 15%;
+.bata {
+    height: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#torso #torso-lado-derecho {
+    left: 15%;
+    width: 45%;
+    z-index: 2;
+    transform: skewX(-10deg);
+    border-right-color: transparent;
+    clip-path: polygon(0% 0%, 90% 0%, 90% 100%, 0% 100%);
+}
+
+#torso #torso-lado-izquierdo {
+    width: 40%;
+    left: 45%;
+    transform: skewX(10deg);
+    border-left-color: transparent;
+}
+
+#torso #linea-bata {
+    width: 50px;
+    height: 120px;
+    left: 85px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+#torso #boton-bata {
+    width: 15px;
+    height: 30px;
+    top: 70px;
+    left: 105px;
+    z-index: 3;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#personaje #piernas {
+    height: 20%;
     background-color: tomato;
 }
 
+.pie {
+    width: 100px;
+    height: 100%;
+    background-color: black;
+    clip-path: polygon(45% 0%, 100% 0%, 100% 40%, 70% 55%, 75% 40%, 0% 100%);
+}
+
+#piernas #pie-derecho {
+    transform: rotateY(0deg);
+}
+
+#piernas #pie-izquierdo {
+    left: 140px;
+    transform: rotateY(180deg);
+}

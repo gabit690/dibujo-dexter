@@ -1,9 +1,6 @@
 #diskette {
-    width: 35%;
-    min-width: 83.99px;
-    max-width: 106.99px;
-    height: 80%;
-    min-height: 76.79px;
+    width: 80px;
+    height: 76.79px;
     background: linear-gradient(-25deg, #BF953F 0%, #FCF6BA 40%, #B38728 100%);
     border-radius: 10%;
     box-sizing: border-box;
@@ -28,8 +25,8 @@
 }
 
 #diskette #circulo-externo {
-    width: 54.16%;
-    height: 60%;
+    width: 46.07px;
+    height: 46.07px;
     margin: auto;
     margin-top: 13%;
     display: flex;

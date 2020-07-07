@@ -3,18 +3,25 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     min-height: 600px;
-    overflow: hidden;
     background-color: #001d59;
+    overflow: hidden;
 }
 
 #titular {
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
     font-size: 5vh;
     text-align: center;
     cursor: pointer;
     color: #d4dbee;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
 }
 
 /* ---------- Información de proyecto --------- */
@@ -31,6 +38,7 @@ body {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     transition: .4s top linear;
+    z-index: 100;
 }
 
 #info.activo {
