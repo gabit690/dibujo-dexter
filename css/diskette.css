@@ -5,6 +5,7 @@
     height: 80%;
     min-height: 76.79px;
     background: linear-gradient(-25deg, #BF953F 0%, #FCF6BA 40%, #B38728 100%);
+    border-radius: 10%;
     box-sizing: border-box;
     transition-property: transform;
     transition-timing-function: linear;
@@ -34,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient( #FCF6BA 20%, #B38728 70%, #AA771C);
+    background: radial-gradient( #FCF6BA 20%,#B38728 25%, #B38728 26%);
     border-radius: 50%;
     overflow: hidden;
 }
@@ -44,7 +45,7 @@
     height: 17%;
     margin: auto;
     margin-top: 8%;
-    background: linear-gradient(360deg, #FCF6BA, #B38728);
+    background-color: #B38728;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     opacity: 1;

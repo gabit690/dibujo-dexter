@@ -9,10 +9,6 @@
     background-color: white;
 }
 
-.contenedor {
-    position: relative;
-}
-
 #personaje #objeto-valioso{
     height: 20%;
     display: flex;
