@@ -170,7 +170,7 @@
     background-color: #e97417;
     border-radius: 50%;
     transform: rotateZ(-10deg);
-    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 45%, 100% 65%, 100% 100%, 0% 100%);
     z-index: 3;
 }
 

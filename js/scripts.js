@@ -93,6 +93,21 @@ window.addEventListener('load', function(e) {
             hawk.currentTime = 0;
             
         }
+        
     });
+
+    function terminarAudio(audio) {
+
+        audio.addEventListener('ended', (e) => {
+
+            audio.currentTime = 0
+    
+        });
+
+    }
+
+    terminarAudio(intro);
+
+    terminarAudio(hawk);
 
 });
