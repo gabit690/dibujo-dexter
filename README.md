@@ -39,7 +39,7 @@ ___
 
 ## **Agradecimientos especiales.**
 
-A creador de intro por el cover del tema principal que usé para la intro y a creador hawk por su cover de "Your brain is a creative computer".
+A **Niall Stenson** por el cover del [tema principal][cover-intro] que usé para la intro y a **Megawolf77** por su cover de ["Your brain is a creative computer"][cover-hawk].
 
 
 ## **Autor.**
@@ -50,5 +50,12 @@ A creador de intro por el cover del tema principal que usé para la intro y a cr
 
 **Inicio del proyecto:** 02/07/2020.
 
+**Finalización del proyecto:** 08/07/2020.
+
 [info]: https://en.wikipedia.org/wiki/Dexter%27s_Laboratory
-[web]: https://en.wikipedia.org/wiki/Dexter%27s_Laboratory
+
+[web]: https://gabit690.github.io/dibujo-dexter
+
+[cover-intro]: https://www.youtube.com/watch?v=FZpMPBG3J_I
+
+[cover-hawk]: https://www.youtube.com/watch?v=uA0Fg9LkJow
