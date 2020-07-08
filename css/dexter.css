@@ -54,7 +54,7 @@
 .dedo1 {
     width: 20px;
     height: 15px;
-    top: 35px;
+    top: 36px;
     left: 45px;
     background-color: #83338a;
     border-radius: 50%;
@@ -65,8 +65,8 @@
 .dedo2 {
     width: 15px;
     height: 38px;
-    top: -1px;
-    left: 35px;
+    top: -0px;
+    left: 36px;
     background-color: #83338a;
     border-radius: 50%;
     border-bottom-color: transparent;
@@ -77,19 +77,19 @@
 .dedo3 {
     width: 15px;
     height: 30px;
-    top: 10px;
+    top: 12px;
     left: 12px;
     background-color: #83338a;
     border-radius: 50%;
     border-bottom-color: transparent;
-    transform: rotateZ(-25deg);
+    transform: rotateZ(-35deg);
     z-index: 1;
 }
 
 .dedo4 {
     width: 15px;
     height: 30px;
-    top: 27px;
+    top: 28px;
     left: -3px;
     background-color: #83338a;
     border-radius: 50%;
@@ -146,7 +146,7 @@
     background-color: #e97417;
     border-radius: 50%;
     transform: rotateZ(-10deg);
-    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 50%, 100% 47%, 100% 100%, 0% 100%);
     z-index: 3;
 }
 
@@ -158,7 +158,7 @@
     background-color: #e97417;
     border-radius: 50%;
     transform: rotateZ(-20deg);
-    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 50%, 100% 70%, 100% 100%, 0% 100%);
     z-index: 3;
 }
 
@@ -197,6 +197,29 @@
     border-right-color: transparent;
     border-left-color: transparent;
 }
+
+#personaje #cabello7 {
+    width: 15px;
+    height: 10px;
+    top: 8px;
+    left: 90px;
+    border-radius: 50%;
+    transform: rotateZ(30deg);
+    background-color: #e97417;
+    z-index: 3;
+}
+
+#personaje #cabello8 {
+    width: 25px;
+    height: 15px;
+    top: 0px;
+    left: 127px;
+    border-radius: 50%;
+    transform: rotateZ(27deg);
+    background-color: #e97417;
+    z-index: 3;
+}
+
 
 #personaje #dexter-cabeza {
     width: 100%;

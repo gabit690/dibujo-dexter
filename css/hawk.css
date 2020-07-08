@@ -6,12 +6,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient(-25deg, #BF953F 0%, #FCF6BA 40%, #B38728 100%);
     overflow: hidden;
+    z-index: 100;
 }
 
 #professor-hawk {
