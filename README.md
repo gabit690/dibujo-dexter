@@ -54,7 +54,7 @@ A **Niall Stenson** por el cover del [tema principal][cover-intro] que usé para
 
 [info]: https://en.wikipedia.org/wiki/Dexter%27s_Laboratory
 
-[web]: https://gabit690.github.io/dibujo-dexter
+[web]: https://dibujo-dexter.web.app/
 
 [cover-intro]: https://www.youtube.com/watch?v=FZpMPBG3J_I
 
